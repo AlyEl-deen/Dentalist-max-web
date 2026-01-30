@@ -29,7 +29,7 @@ const courses: Course[] = [
   {
     id: 1,
     name: "Advanced Dental Implantology",
-    image: "/images/course-1.jpg",
+    image: "images/course-1.jpg",
     description: "Master the latest techniques in dental implant placement and restoration. This comprehensive course covers surgical protocols, bone grafting, and immediate loading concepts.",
     duration: "8 weeks",
     level: "Advanced"
@@ -37,7 +37,7 @@ const courses: Course[] = [
   {
     id: 2,
     name: "Modern Endodontics",
-    image: "/images/course-2.jpg",
+    image: "images/course-2.jpg",
     description: "Learn contemporary root canal treatment techniques using rotary instrumentation and modern obturation methods. Includes hands-on practice with digital imaging.",
     duration: "6 weeks",
     level: "Intermediate"
@@ -45,7 +45,7 @@ const courses: Course[] = [
   {
     id: 3,
     name: "Cosmetic Dentistry Essentials",
-    image: "/images/course-3.jpg",
+    image: "images/course-3.jpg",
     description: "Transform smiles with confidence! Explore veneers, bonding, teeth whitening, and smile design principles. Perfect for practitioners looking to expand their cosmetic offerings.",
     duration: "10 weeks",
     level: "All Levels"
@@ -53,7 +53,7 @@ const courses: Course[] = [
   {
     id: 4,
     name: "Orthodontics Fundamentals",
-    image: "/images/course-4.jpg",
+    image: "images/course-4.jpg",
     description: "Introduction to orthodontic diagnosis, treatment planning, and basic appliance therapy. Learn to identify malocclusions and understand treatment mechanics.",
     duration: "12 weeks",
     level: "Beginner"
