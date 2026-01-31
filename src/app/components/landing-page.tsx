@@ -28,17 +28,17 @@ interface Course {
 const courses: Course[] = [
   {
     id: 1,
-    name: "Advanced Dental Implantology",
+    name: "Dental Pharmacology",
     // Use a relative path that points to your images folder
     image: "images/course-1.jpeg", 
-    description: "Master the latest techniques...",
-    duration: "8 weeks",
-    level: "Advanced"
+    description: "Enhance your clinical practice with essential pharmacology knowledge",
+    duration: "Dr.Shahad Salah",
+    level: "Online course"
   },
   {
     id: 2,
     name: "Modern Endodontics",
-    image: "images/course-2.jpg",
+    image: "images/course-2.jpeg",
     description: "Learn contemporary root canal treatment techniques using rotary instrumentation and modern obturation methods. Includes hands-on practice with digital imaging.",
     duration: "6 weeks",
     level: "Intermediate"
@@ -46,7 +46,7 @@ const courses: Course[] = [
   {
     id: 3,
     name: "Cosmetic Dentistry Essentials",
-    image: "images/course-3.jpg",
+    image: "images/course-3.jpeg",
     description: "Transform smiles with confidence! Explore veneers, bonding, teeth whitening, and smile design principles. Perfect for practitioners looking to expand their cosmetic offerings.",
     duration: "10 weeks",
     level: "All Levels"
@@ -54,12 +54,12 @@ const courses: Course[] = [
   {
     id: 4,
     name: "Orthodontics Fundamentals",
-    image: "images/course-4.jpg",
+    image: "images/course-4.jpeg",
     description: "Introduction to orthodontic diagnosis, treatment planning, and basic appliance therapy. Learn to identify malocclusions and understand treatment mechanics.",
     duration: "12 weeks",
     level: "Beginner"
   },
-  {
+  /* {
     id: 5,
     name:"Cosmetic Dentistry Essentials",
     image: "https://images.unsplash.com/photo-1758205308179-4e00e0e4060b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50YWwlMjBzdXJnZXJ5JTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc2ODgwNTQwNXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -77,11 +77,12 @@ const courses: Course[] = [
   },
   {
     id: 7,
-    name: "Advanced Dental Implantology",
+    name: "Dental Pharmacology",
     image: "https://images.unsplash.com/photo-1758205307783-f31fe8499814?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50YWwlMjBlZHVjYXRpb24lMjB0cmFpbmluZ3xlbnwxfHx8fDE3Njg4MjE0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     description: "Master the latest techniques in dental implant placement and restoration. This comprehensive course covers surgical protocols, bone grafting, and immediate loading concepts.",
-    duration: "8 weeks",
-    level: "Advanced"
+    duration: "Online course 
+",
+    level: "Online course"
   },
   {
     id: 8,
@@ -90,7 +91,7 @@ const courses: Course[] = [
     description: "Learn contemporary root canal treatment techniques using rotary instrumentation and modern obturation methods. Includes hands-on practice with digital imaging.",
     duration: "6 weeks",
     level: "Intermediate"
-  }
+  } */
 
 ];
 
