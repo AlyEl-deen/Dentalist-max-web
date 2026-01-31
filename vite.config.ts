@@ -3,7 +3,7 @@ import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
-export default({
+export default defineConfig({
   base: '/Dentalist-max-web/', 
   plugins: [
     // The React and Tailwind plugins are both required for Make, even if
