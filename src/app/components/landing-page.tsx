@@ -29,7 +29,7 @@ const courses: Course[] = [
   {
     id: 1,
     name: "Advanced Dental Implantology",
-    image: "/images/course-1.jpg",
+    image: "<img src={docs/images/course-1.jpeg} alt='img'/>",
     description: "Master the latest techniques in dental implant placement and restoration. This comprehensive course covers surgical protocols, bone grafting, and immediate loading concepts.",
     duration: "8 weeks",
     level: "Advanced"
